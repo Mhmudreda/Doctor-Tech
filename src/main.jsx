@@ -8,7 +8,7 @@ import AppContextProvider from './Context/AppContext.jsx';
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Doctor-Tech">
   <AppContextProvider>
 
         <App />
